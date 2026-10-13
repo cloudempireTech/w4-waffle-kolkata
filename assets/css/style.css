@@ -140,7 +140,7 @@ button {
    Header & Navigation (TheDivine-Style Floating Dark Pill Navbar)
    ========================================================================== */
 body {
-  padding-top: 78px;
+  padding-top: 0;
 }
 
 .site-header {
@@ -159,10 +159,10 @@ body {
   pointer-events: auto;
   width: 100%;
   max-width: 1320px;
-  background: rgba(11, 20, 25, 0.96);
-  border: 1px solid rgba(212, 163, 89, 0.32);
+  background: rgba(28, 15, 9, 0.94);
+  border: 1px solid rgba(226, 135, 67, 0.4);
   border-radius: 9999px;
-  box-shadow: 0 16px 36px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 16px 36px rgba(18, 9, 5, 0.45);
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
   display: flex;
@@ -210,7 +210,7 @@ body {
   font-size: 0.62rem;
   font-weight: 600;
   letter-spacing: 0.15em;
-  color: #d4a359;
+  color: #e28743;
   text-transform: uppercase;
   line-height: 1.2;
 }
@@ -239,7 +239,7 @@ body {
 }
 
 .nav-link:hover {
-  color: #d4a359;
+  color: #e28743;
 }
 
 .nav-link.active {
@@ -254,7 +254,7 @@ body {
   left: 0;
   right: 0;
   height: 2px;
-  background: #d4a359;
+  background: #e28743;
   border-radius: 2px;
 }
 
@@ -270,7 +270,7 @@ body {
   display: inline-flex;
   align-items: center;
   gap: 0.35rem;
-  background: #d4a359;
+  background: #e28743;
   color: #0b1419;
   padding: 8px 18px;
   border-radius: 9999px;
@@ -286,7 +286,7 @@ body {
 }
 
 .btn-header-cta:hover {
-  background: #e6b870;
+  background: #f09a58;
   transform: translateY(-1px);
   box-shadow: 0 6px 20px rgba(212, 163, 89, 0.5);
   color: #0b1419;
@@ -325,8 +325,8 @@ body {
 
 .header-social-btn:hover {
   background: rgba(212, 163, 89, 0.2);
-  border-color: #d4a359;
-  color: #d4a359;
+  border-color: #e28743;
+  color: #e28743;
   transform: translateY(-2px);
 }
 
@@ -956,7 +956,7 @@ body {
 .subpage-banner {
   background: linear-gradient(135deg, #2d160a 0%, #4a2715 100%);
   color: #ffffff;
-  padding: 4.5rem 1.5rem 4rem;
+  padding: 7.25rem 1.5rem 4rem;
   text-align: center;
   position: relative;
   overflow: hidden;
@@ -1225,7 +1225,7 @@ body {
    ========================================================================== */
 @media (max-width: 960px) {
   body {
-    padding-top: 72px;
+    padding-top: 0;
   }
 
   .site-header {
@@ -1274,7 +1274,7 @@ body {
     height: calc(100dvh - 66px);
     overflow-y: auto;
     z-index: 999;
-    background: rgba(11, 20, 25, 0.98);
+    background: rgba(28, 15, 9, 0.98);
     backdrop-filter: blur(25px);
     -webkit-backdrop-filter: blur(25px);
     flex-direction: column;
@@ -1300,7 +1300,7 @@ body {
   }
 
   .nav-link:hover, .nav-link.active {
-    color: #d4a359;
+    color: #e28743;
     background: rgba(212, 163, 89, 0.12);
   }
 
